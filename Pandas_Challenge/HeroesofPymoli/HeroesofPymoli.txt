@@ -1,0 +1,27 @@
+#Displaying Unique items
+#purchase_data.columns
+#Index(['Purchase ID', 'SN', 'Age', 'Gender', 'Item ID', 'Item Name', 'Price'], dtype='object')
+
+print("TotalRevenue", TotalRevenue)
+print("Unique_items",  Unique_items)
+print("Average_price",  Average_price)
+print("Number_of_purchases",  Number_of_purchases)
+
+print("Count_total_players", Count_total_players)
+
+print("Count_players_gender", Count_players_gender)
+
+print(Count_Male_players)
+
+print(Count_Female_players)
+
+print(Count_Other_players)
+
+print("Male_player_pct", Male_player_pct)
+
+print("Female_player_pct", Female_player_pct)
+
+print("Other_player_pct", Other_player_pct)
+
+
+
