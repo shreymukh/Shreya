@@ -23,13 +23,5 @@ print("Female_player_pct", Female_player_pct)
 
 print("Other_player_pct", Other_player_pct)
 
-# Grouping the data by Item Name, Item ID
-
-New_df = purchase_data.groupby(["Item Name","Item ID"])
-print(type(New_df))
-New_df[["Price"]].sum()
-
-purchase_data[purchase_data["Item Name"]=="Blindscythe"]
-
 
 
