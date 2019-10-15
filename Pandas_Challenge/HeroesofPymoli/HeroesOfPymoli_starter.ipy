@@ -1,0 +1,19 @@
+Note
+Instructions have been included for each segment. 
+You do not have to follow them exactly, but they are included to help you think through the steps.
+
+# Dependencies and Setup
+import pandas as pd
+import numpy as np
+
+# File to Load (Remember to Change These)
+file_to_load = "C:/Users/17703/Shreya/Pandas_Challenge/HeroesOfPymoli/purchase_data.csv"
+
+# Read Purchasing File and store into Pandas data frame
+purchase_data = pd.read_csv(file_to_load)
+
+
+
+
+Player Count
+Display the total number of players
